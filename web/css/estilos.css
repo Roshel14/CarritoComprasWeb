@@ -1,0 +1,24 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 set. 2024, 8:23:03 p. m.
+    Author     : ROGER
+*/
+
+container{
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.card{
+   border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Agrega margen inferior a cada tarjeta */
+}
